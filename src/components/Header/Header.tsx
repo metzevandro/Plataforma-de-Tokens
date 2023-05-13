@@ -1,4 +1,4 @@
-import Logo from "C:/Users/metzx/Desktop/Plataforma-de-Tokenizacao/web/src/assets/Invest-Dark.svg";
+import Logo from "../../assets/Invest-Dark.svg";
 import { CreateAccount } from "./CreateAccount";
 import { Enter } from "./Enter";
 import PopoverDemo from "./Popover";

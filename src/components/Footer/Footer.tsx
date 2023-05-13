@@ -3,12 +3,12 @@ import Instagram from "../../assets/Instagram.svg";
 import LinkedIn from "../../assets/LinkedIn.svg";
 import Twitter from "../../assets/Twitter.svg";
 
-import Logo from "../../assets/Invest-Light.svg"
+import Logo from "../../assets/Invest-Light.svg";
 
 export function Footer() {
   return (
     <div className="flex w-full flex-col items-center justify-center bg-overlay phone:gap-16 phone:py-16 tablet:gap-20 laptop:gap-20 tablet:py-24 laptop:py-24 desktop:gap-20 desktop:py-24">
-      <div className="flex w-[90%] tablet:flex-row gap-14 tablet:justify-between desktop:justify-around laptop:justify-around phone:flex-col desktop:flex-row">
+      <div className="flex w-[90%] tablet:flex-row gap-14 justify-between phone:flex-col desktop:flex-row">
         <a href="#">
           <img src={Logo} alt="" />
         </a>

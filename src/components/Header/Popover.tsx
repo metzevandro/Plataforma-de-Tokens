@@ -29,8 +29,8 @@ const PopoverDemo = () => (
           <a href="/Tokens">Para Investidores</a>
           <a href="/Tokens">Para Empresas</a>
           <a href="/LearnMore">Para Aprender</a>
-          <Enter/>
-          <CreateAccount/>
+          <Enter />
+          <CreateAccount />
         </div>
         <Popover.Close
           className="absolute top-[5px] right-[5px] inline-flex h-[25px] w-[25px] items-center justify-center rounded-full"

@@ -1,7 +1,6 @@
 import * as Checkbox from "@radix-ui/react-checkbox";
 import * as Dialog from "@radix-ui/react-dialog";
-import { CheckIcon } from '@radix-ui/react-icons';
-
+import { CheckIcon } from "@radix-ui/react-icons";
 
 export function ForInvestors() {
   return (
@@ -81,23 +80,23 @@ export function ForInvestors() {
                         id="c1"
                       >
                         <Checkbox.Indicator className="text-overlay">
-                          <CheckIcon className="w-[30px]"/>
+                          <CheckIcon className="w-[30px]" />
                         </Checkbox.Indicator>
                       </Checkbox.Root>
                       <label
                         className="flex font-sans desktop:text-xs laptop:text-xs tablet:text-[10px] phone:text-[10px] desktop:pl-[15px] laptop:pl-[15px] tablet:pl-[10px] phone:pl-[10px] leading-none text-overlay"
                         htmlFor="c1"
-                      ><p>
-                        Declaro que li e concordo com as {" "}
-                        <a
-                          href="https://policies.google.com/privacy?hl=pt-BR"
-                          className="underline"
-                          target={"_blank"}
-                        >
-                          Políticas de Privacidade
-                        </a>
-                        {" "}
-                        da 3.0 INVEST
+                      >
+                        <p>
+                          Declaro que li e concordo com as{" "}
+                          <a
+                            href="https://policies.google.com/privacy?hl=pt-BR"
+                            className="underline"
+                            target={"_blank"}
+                          >
+                            Políticas de Privacidade
+                          </a>{" "}
+                          da 3.0 INVEST
                         </p>
                       </label>
                     </div>

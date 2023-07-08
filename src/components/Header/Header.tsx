@@ -6,7 +6,7 @@ import PopoverDemo from "./Popover";
 export function Header() {
   return (
     <div className="px-22 flex justify-center border-b-border py-7">
-      <div className="w-[90%] flex justify-between">
+      <div className="phone:w-[90%] tablet:w-[85%] flex justify-between">
         <div className="flex items-center laptop:gap-[32px]">
           <a href="/" className="h-[40px] phone:flex phone:items-center">
             <img src={Logo} />
@@ -37,7 +37,7 @@ export function Header() {
           </div>
         </div>
         <div className="items-center phone:flex laptop:hidden">
-          <PopoverDemo/>
+          <PopoverDemo />
         </div>
       </div>
     </div>

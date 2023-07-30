@@ -38,12 +38,12 @@ export function Home() {
         <div className="phone:flex phone:items-start">
           <h1 className="uppercase">VEJA TOKENS</h1>
         </div>
-        <div className="flex pt-16 laptop:flex-row phone:flex-col justify-between w-[85%] tablet:w-[90%]">
+        <div className="flex pt-16 laptop:flex-row phone:gap-4 phone:flex-col justify-between w-[85%] tablet:w-[90%]">
           <Token 
           title="ENOMA RIPOL"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           image={Token1}
-          state={true}
+          state={true  }
           day={30}
           cash={238}
           investors={3}
@@ -52,7 +52,7 @@ export function Home() {
           title="ENOMA RIPOL"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           image={Token1}
-          state={true}
+          state={false}
           day={23}
           cash={350}
           investors={8}

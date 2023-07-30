@@ -75,16 +75,16 @@ export function ForInvestors() {
                   <form>
                     <div className="flex items-center">
                       <Checkbox.Root
-                        className="flex laptop:h-[20px] laptop:w-[20px] desktop:h-[25px] desktop:w-[25px] tablet:w-[20px] tablet:h-[20px] border-2 border-overlay appearance-none items-center justify-center rounded-[4px] bg-white outline-none"
+                        className="flex w-[20px] h-[20px] border-2 border-overlay appearance-none items-center justify-center rounded-[4px] bg-white outline-none"
                         defaultChecked
                         id="c1"
                       >
                         <Checkbox.Indicator className="text-overlay">
-                          <CheckIcon className="w-[30px]" />
+                          <CheckIcon className="w-[20px]" />
                         </Checkbox.Indicator>
                       </Checkbox.Root>
                       <label
-                        className="flex font-sans desktop:text-xs laptop:text-xs tablet:text-[10px] phone:text-[10px] desktop:pl-[15px] laptop:pl-[15px] tablet:pl-[10px] phone:pl-[10px] leading-none text-overlay"
+                        className="flex font-sans desktop:text-xs laptop:text-xs tablet:text-[10px] phone:text-[8px] desktop:pl-[15px] laptop:pl-[15px] tablet:pl-[10px] phone:pl-[10px] leading-none text-overlay"
                         htmlFor="c1"
                       >
                         <p>

@@ -17,12 +17,12 @@ export const Token: React.FC<TokenProps> = ({ title, description, image, state, 
       <div className="bg-[#fff]">
         <div className="flex flex-col gap-6 p-6 border-border border">
           <div>
-            <p className={`text-white max-w-min uppercase text-xs p-2 ${state ? "bg-open" : "bg-close"}`}>
+            <p className={`text-white max-w-min uppercase font-bold text-xs p-2 ${state ? "bg-open" : "bg-close"}`}>
               {state ? "Aberto" : "Fechado"}
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h1 className="laptop:text-2xl">
+            <h1 className="laptop:text-2xl font-bold ">
               {title}
             </h1>
             <p className="text-base font-normal">
@@ -44,6 +44,9 @@ export const Token: React.FC<TokenProps> = ({ title, description, image, state, 
               <p className="font-bold">{investors}</p>
             </div>
           </div>
+          <button className="w-full bg-blue text-white uppercase font-semibold p-6">
+            Quero saber mais
+          </button>
       </div>
     </div>
     </>

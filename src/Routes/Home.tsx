@@ -39,32 +39,32 @@ export function Home() {
           <h1 className="uppercase">VEJA TOKENS</h1>
         </div>
         <div className="flex pt-16 laptop:flex-row phone:gap-4 phone:flex-col justify-between w-[85%] tablet:w-[90%]">
-          <Token 
-          title="ENOMA RIPOL"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          image={Token1}
-          state={true  }
-          day={30}
-          cash={238}
-          investors={3}
+          <Token
+            title="ENOMA RIPOL"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            image={Token1}
+            state={true}
+            day={30}
+            cash={238}
+            investors={3}
           />
-          <Token 
-          title="ENOMA RIPOL"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          image={Token1}
-          state={false}
-          day={23}
-          cash={350}
-          investors={8}
+          <Token
+            title="ENOMA RIPOL"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            image={Token1}
+            state={false}
+            day={23}
+            cash={350}
+            investors={8}
           />
-          <Token 
-          title="ENOMA RIPOL"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          image={Token1}
-          state={true}
-          day={11}
-          cash={590}
-          investors={4}
+          <Token
+            title="ENOMA RIPOL"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            image={Token1}
+            state={true}
+            day={11}
+            cash={590}
+            investors={4}
           />
         </div>
       </div>

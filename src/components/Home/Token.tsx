@@ -44,7 +44,7 @@ export const Token: React.FC<TokenProps> = ({ title, description, image, state, 
               <p className="font-bold">{investors}</p>
             </div>
           </div>
-          <button className="w-full bg-blue text-white uppercase font-semibold p-6">
+          <button className="w-full text-sm bg-blue text-white uppercase font-[540] p-6">
             Quero saber mais
           </button>
       </div>

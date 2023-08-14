@@ -1,5 +1,6 @@
 import { Token } from "../components/Home/Token";
 import Token1 from "../assets/Token.png";
+import { PerguntasFrequentes } from "../components/Accordion/Accordion";
 
 export function Investors() {
   return (
@@ -72,6 +73,7 @@ export function Investors() {
               Perguntas frequentes
             </h1>
           </div>
+          <PerguntasFrequentes/>
         </div>
       </div>
     </>

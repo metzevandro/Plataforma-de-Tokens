@@ -73,7 +73,7 @@ export function Investors() {
               Perguntas frequentes
             </h1>
           </div>
-          <PerguntasFrequentes/>
+          <PerguntasFrequentes />
         </div>
       </div>
     </>
